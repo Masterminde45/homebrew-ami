@@ -1,8 +1,8 @@
 class Ami < Formula
   desc "Installer that fetches packages from Arch Linux's pacman repos and the AUR"
   homepage "https://github.com/Masterminde45/ami"
-  url "https://github.com/Masterminde45/ami/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "89c4e4975a3bb8d13f0d2238069924886b8ee1042a3ddcf2b001a5bdba9b8e30"
+  url "https://github.com/Masterminde45/ami/archive/refs/tags/v0.1.2.tar.gz"
+  sha256 "92f2efb6b8f2876284dacf148197db62338f193b61aebda875c5b1cc47c69aee"
   license "GPL-3.0-or-later"
 
   depends_on "meson" => :build
