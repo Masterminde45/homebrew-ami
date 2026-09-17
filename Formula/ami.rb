@@ -30,6 +30,6 @@ class Ami < Formula
 
   test do
     output = shell_output("#{bin}/ami")
-    assert_match "AMI", output
+    assert_match "Archlinux Multi Installer", output
   end
 end
