@@ -1,8 +1,8 @@
 class Ami < Formula
   desc "Installer that fetches packages from Arch Linux's pacman repos and the AUR"
   homepage "https://github.com/Masterminde45/ami"
-  url "https://github.com/Masterminde45/ami/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "bb57850ceeaec8595824dad21134a11c59e73bdd4bfba893206b3ec7096c2298"
+  url "https://github.com/Masterminde45/ami/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "89c4e4975a3bb8d13f0d2238069924886b8ee1042a3ddcf2b001a5bdba9b8e30"
   license "GPL-3.0-or-later"
 
   depends_on "meson" => :build
@@ -30,6 +30,6 @@ class Ami < Formula
 
   test do
     output = shell_output("#{bin}/ami")
-    assert_match "Archlinux Multi Installer", output
+    assert_match "AMI", output
   end
 end
